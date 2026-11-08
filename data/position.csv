@@ -1,0 +1,4 @@
+score,auroc
+Readout on fitted data,0.9417430169667078
+Readout on held-out families,0.8340771919734458
+Token position alone,0.8450051961135363

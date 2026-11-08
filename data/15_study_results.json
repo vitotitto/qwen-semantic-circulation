@@ -1,0 +1,36 @@
+{
+  "memorisation_followup": {
+    "model": "Stock Q6",
+    "prefix_fraction": 0.6,
+    "prefix_unit": "question tokens",
+    "decoding": "greedy",
+    "continuation_allowance": 1024,
+    "original": {
+      "n": 48,
+      "exact_suffix_reconstruction": 1,
+      "punctuation_tolerant_reconstruction": 2,
+      "correct_original_answer": 5,
+      "cap_hits": 28
+    },
+    "fresh_partial": {
+      "n": 6,
+      "exact_suffix_reconstruction": 0,
+      "punctuation_tolerant_reconstruction": 0,
+      "correct_original_answer": 0
+    },
+    "fresh_full": {
+      "completed": 20,
+      "correct": 20,
+      "screen_flags": 16,
+      "reviewed_circulation": "Clear cases in several replies; no final exhaustive reviewed count claimed.",
+      "panel": "Six parts across five families from post-release September 2026 UKMT papers",
+      "allowance": 32768
+    },
+    "example": {
+      "result": "Both perimeters established",
+      "established_by_approx_token": 650,
+      "final_output_tokens": 6139,
+      "review": "Useful and circular checking both present."
+    }
+  }
+}

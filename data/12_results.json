@@ -1,0 +1,136 @@
+{
+  "complete": false,
+  "totals": {
+    "original": {
+      "replies": 5,
+      "correct": 5,
+      "tokens": 7466,
+      "caps": 0
+    },
+    "v1": {
+      "replies": 5,
+      "correct": 4,
+      "tokens": 6969,
+      "caps": 0
+    },
+    "v2": {
+      "replies": 5,
+      "correct": 5,
+      "tokens": 8576,
+      "caps": 0
+    }
+  },
+  "original_correct_losses": [],
+  "rows": [
+    {
+      "case_id": "gsm8k_train_52",
+      "seed": 20261106,
+      "role": "ordinary arithmetic",
+      "arms": {
+        "original": {
+          "tokens": 332,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v1": {
+          "tokens": 286,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v2": {
+          "tokens": 317,
+          "strict_correct": true,
+          "stop": "eos"
+        }
+      }
+    },
+    {
+      "case_id": "math_train_counting_and_probability_51",
+      "seed": 20261108,
+      "role": "V1 strict answer regression",
+      "arms": {
+        "original": {
+          "tokens": 629,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v1": {
+          "tokens": 562,
+          "strict_correct": false,
+          "stop": "eos"
+        },
+        "v2": {
+          "tokens": 716,
+          "strict_correct": true,
+          "stop": "eos"
+        }
+      }
+    },
+    {
+      "case_id": "math_train_number_theory_421",
+      "seed": 20261106,
+      "role": "number-theory control",
+      "arms": {
+        "original": {
+          "tokens": 1157,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v1": {
+          "tokens": 1114,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v2": {
+          "tokens": 1345,
+          "strict_correct": true,
+          "stop": "eos"
+        }
+      }
+    },
+    {
+      "case_id": "math_train_intermediate_algebra_111",
+      "seed": 20261106,
+      "role": "polynomial progress control",
+      "arms": {
+        "original": {
+          "tokens": 2010,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v1": {
+          "tokens": 950,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v2": {
+          "tokens": 3310,
+          "strict_correct": true,
+          "stop": "eos"
+        }
+      }
+    },
+    {
+      "case_id": "math_train_algebra_1049",
+      "seed": 20261106,
+      "role": "algebra reasoning control",
+      "arms": {
+        "original": {
+          "tokens": 3338,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v1": {
+          "tokens": 4057,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v2": {
+          "tokens": 2888,
+          "strict_correct": true,
+          "stop": "eos"
+        }
+      }
+    }
+  ]
+}

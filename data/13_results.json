@@ -1,0 +1,197 @@
+{
+  "complete": true,
+  "totals": {
+    "original": {
+      "replies": 8,
+      "correct": 8,
+      "tokens": 63866,
+      "caps": 0
+    },
+    "v1": {
+      "replies": 8,
+      "correct": 5,
+      "tokens": 79511,
+      "caps": 2
+    },
+    "v3": {
+      "replies": 8,
+      "correct": 6,
+      "tokens": 74577,
+      "caps": 2
+    }
+  },
+  "original_correct_losses": [
+    "math_train_precalculus_637",
+    "math_train_geometry_225"
+  ],
+  "rows": [
+    {
+      "case_id": "gsm8k_train_52",
+      "seed": 20261106,
+      "arms": {
+        "original": {
+          "tokens": 332,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v1": {
+          "tokens": 286,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v3": {
+          "tokens": 330,
+          "strict_correct": true,
+          "stop": "eos"
+        }
+      }
+    },
+    {
+      "case_id": "math_train_counting_and_probability_51",
+      "seed": 20261108,
+      "arms": {
+        "original": {
+          "tokens": 629,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v1": {
+          "tokens": 562,
+          "strict_correct": false,
+          "stop": "eos"
+        },
+        "v3": {
+          "tokens": 525,
+          "strict_correct": true,
+          "stop": "eos"
+        }
+      }
+    },
+    {
+      "case_id": "math_train_number_theory_421",
+      "seed": 20261106,
+      "arms": {
+        "original": {
+          "tokens": 1157,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v1": {
+          "tokens": 1114,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v3": {
+          "tokens": 908,
+          "strict_correct": true,
+          "stop": "eos"
+        }
+      }
+    },
+    {
+      "case_id": "math_train_intermediate_algebra_111",
+      "seed": 20261106,
+      "arms": {
+        "original": {
+          "tokens": 2010,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v1": {
+          "tokens": 950,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v3": {
+          "tokens": 826,
+          "strict_correct": true,
+          "stop": "eos"
+        }
+      }
+    },
+    {
+      "case_id": "math_train_algebra_1422",
+      "seed": 20261106,
+      "arms": {
+        "original": {
+          "tokens": 375,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v1": {
+          "tokens": 341,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v3": {
+          "tokens": 389,
+          "strict_correct": true,
+          "stop": "eos"
+        }
+      }
+    },
+    {
+      "case_id": "math_train_precalculus_163",
+      "seed": 20261106,
+      "arms": {
+        "original": {
+          "tokens": 6920,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v1": {
+          "tokens": 10722,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v3": {
+          "tokens": 6063,
+          "strict_correct": true,
+          "stop": "eos"
+        }
+      }
+    },
+    {
+      "case_id": "math_train_precalculus_637",
+      "seed": 20261107,
+      "arms": {
+        "original": {
+          "tokens": 23048,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v1": {
+          "tokens": 32768,
+          "strict_correct": false,
+          "stop": "limit"
+        },
+        "v3": {
+          "tokens": 32768,
+          "strict_correct": false,
+          "stop": "limit"
+        }
+      }
+    },
+    {
+      "case_id": "math_train_geometry_225",
+      "seed": 20261109,
+      "arms": {
+        "original": {
+          "tokens": 29395,
+          "strict_correct": true,
+          "stop": "eos"
+        },
+        "v1": {
+          "tokens": 32768,
+          "strict_correct": false,
+          "stop": "limit"
+        },
+        "v3": {
+          "tokens": 32768,
+          "strict_correct": false,
+          "stop": "limit"
+        }
+      }
+    }
+  ]
+}

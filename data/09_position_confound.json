@@ -1,0 +1,35 @@
+{
+  "method": "Weighted token pair AUC; each positive family contributes total bad weight1/6, each preservation family total good weight1/8, tokens uniform within family. Position uses absolute input-token index. Descriptive only, correlated tokens are not independent statistical trials.",
+  "weighted_auc": {
+    "position_only": 0.8450051961135363,
+    "clean_full_fit": 0.9417430169667078,
+    "clean_nested_lofo": 0.8340771919734458
+  },
+  "positive_family_position_gaps": [
+    {
+      "case_id": "math_train_algebra_719",
+      "bad_minus_good_mean_input_position": 345.5
+    },
+    {
+      "case_id": "math_train_counting_and_probability_137",
+      "bad_minus_good_mean_input_position": 2049.0
+    },
+    {
+      "case_id": "math_train_counting_and_probability_561",
+      "bad_minus_good_mean_input_position": 1535.5
+    },
+    {
+      "case_id": "math_train_intermediate_algebra_1016",
+      "bad_minus_good_mean_input_position": -113.25
+    },
+    {
+      "case_id": "math_train_intermediate_algebra_218",
+      "bad_minus_good_mean_input_position": 2705.333333333333
+    },
+    {
+      "case_id": "math_train_number_theory_91",
+      "bad_minus_good_mean_input_position": 284.14754098360663
+    }
+  ],
+  "positive_position_gaps": 5
+}

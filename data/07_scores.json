@@ -1,0 +1,80 @@
+{
+  "updated": "2026-11-07T10:23:51+00:00",
+  "phase": "Complete",
+  "correctness_metric": "answer_acceptance_after_failure_audit",
+  "all_completed": {
+    "original": {
+      "complete": 200,
+      "correct": 195,
+      "raw_strict_correct": 189,
+      "tokens": 976471,
+      "median_tokens": 1310.0,
+      "cap_hits": 5
+    },
+    "v1": {
+      "complete": 200,
+      "correct": 192,
+      "raw_strict_correct": 187,
+      "tokens": 1005385,
+      "median_tokens": 1248.0,
+      "cap_hits": 7
+    }
+  },
+  "completed_pairs": 200,
+  "matched": {
+    "all": {
+      "original": {
+        "complete": 200,
+        "correct": 195,
+        "raw_strict_correct": 189,
+        "tokens": 976471,
+        "median_tokens": 1310.0,
+        "cap_hits": 5
+      },
+      "v1": {
+        "complete": 200,
+        "correct": 192,
+        "raw_strict_correct": 187,
+        "tokens": 1005385,
+        "median_tokens": 1248.0,
+        "cap_hits": 7
+      }
+    },
+    "retained": {
+      "original": {
+        "complete": 136,
+        "correct": 131,
+        "raw_strict_correct": 125,
+        "tokens": 559236,
+        "median_tokens": 723.5,
+        "cap_hits": 5
+      },
+      "v1": {
+        "complete": 136,
+        "correct": 128,
+        "raw_strict_correct": 123,
+        "tokens": 590553,
+        "median_tokens": 746.5,
+        "cap_hits": 7
+      }
+    },
+    "fresh": {
+      "original": {
+        "complete": 64,
+        "correct": 64,
+        "raw_strict_correct": 64,
+        "tokens": 417235,
+        "median_tokens": 4020.0,
+        "cap_hits": 0
+      },
+      "v1": {
+        "complete": 64,
+        "correct": 64,
+        "raw_strict_correct": 64,
+        "tokens": 414832,
+        "median_tokens": 3986.0,
+        "cap_hits": 0
+      }
+    }
+  }
+}

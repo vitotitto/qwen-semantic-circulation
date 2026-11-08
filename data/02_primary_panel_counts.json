@@ -1,0 +1,52 @@
+{
+  "counts": {
+    "MOD_Q6": {
+      "total": 200,
+      "strict_correct": 189,
+      "audited_correct": 195,
+      "format_artifacts": 6,
+      "caps": 5,
+      "wrong_final_answer": 0
+    },
+    "STOCK_Q6": {
+      "total": 200,
+      "strict_correct": 191,
+      "audited_correct": 195,
+      "format_artifacts": 4,
+      "caps": 4,
+      "wrong_final_answer": 1
+    },
+    "MOD_Q8": {
+      "total": 200,
+      "strict_correct": 187,
+      "audited_correct": 192,
+      "format_artifacts": 5,
+      "caps": 7,
+      "wrong_final_answer": 1
+    },
+    "STOCK_Q8": {
+      "total": 200,
+      "strict_correct": 187,
+      "audited_correct": 192,
+      "format_artifacts": 5,
+      "caps": 6,
+      "wrong_final_answer": 2
+    },
+    "V1_Q6": {
+      "total": 200,
+      "strict_correct": 187,
+      "audited_correct": 192,
+      "format_artifacts": 5,
+      "caps": 7,
+      "wrong_final_answer": 1
+    }
+  },
+  "v1_paired_original_counts": {
+    "total": 200,
+    "strict_correct": 189,
+    "audited_correct": 195,
+    "format_artifacts": 6,
+    "caps": 5,
+    "wrong_final_answer": 0
+  }
+}

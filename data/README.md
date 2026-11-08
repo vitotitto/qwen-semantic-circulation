@@ -1,0 +1,32 @@
+# Supporting data
+
+[Blog](../README.md) · [Technical report](../TECHNICAL_REPORT.md)
+
+CSV files contain the plotted values. JSON files contain the evaluation settings and result extracts linked from the technical report. The two example replies are included in full.
+
+- [01_selection.json](01_selection.json)
+- [02_primary_panel_counts.json](02_primary_panel_counts.json)
+- [03_results.json](03_results.json)
+- [04_d12615ce63216ad87776003940749dba13a4c152bdd2b50b78dc65632cfb18dc.json](04_d12615ce63216ad87776003940749dba13a4c152bdd2b50b78dc65632cfb18dc.json)
+- [05_da4a9b886bf2686a6cac76addf0df03ae4790b5c4667308e9e7d132140a956b8.json](05_da4a9b886bf2686a6cac76addf0df03ae4790b5c4667308e9e7d132140a956b8.json)
+- [06_result_summary.json](06_result_summary.json)
+- [07_scores.json](07_scores.json)
+- [08_summary.json](08_summary.json)
+- [09_position_confound.json](09_position_confound.json)
+- [10_summary.json](10_summary.json)
+- [11_summary.json](11_summary.json)
+- [12_results.json](12_results.json)
+- [13_results.json](13_results.json)
+- [14_gate.json](14_gate.json)
+- [15_study_results.json](15_study_results.json)
+- [circularity_heatmap.csv](circularity_heatmap.csv)
+- [control_design.json](control_design.json)
+- [controlled.csv](controlled.csv)
+- [position.csv](position.csv)
+- [pre_return_fit.json](pre_return_fit.json)
+- [reply_length_by_model_level_seed.csv](reply_length_by_model_level_seed.csv)
+- [reply_length_distribution.csv](reply_length_distribution.csv)
+- [reply_length_heatmap.csv](reply_length_heatmap.csv)
+- [semantic_review.csv](semantic_review.csv)
+- [trace.csv](trace.csv)
+- [v1_transfer.csv](v1_transfer.csv)

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "math_train_number_theory_521__short_ordinary_control__baseline_reproduction_full",
+    "case_id": "math_train_number_theory_521",
+    "condition": "baseline_reproduction_full",
+    "seed": 20261106,
+    "tokens": 731,
+    "stop": "eos",
+    "strict_correct": true,
+    "thinking_closed": true
+  },
+  {
+    "id": "math_train_intermediate_algebra_322__asymptote_transfer__preserve_s2",
+    "case_id": "math_train_intermediate_algebra_322",
+    "condition": "preserve_s2",
+    "seed": 20261106,
+    "tokens": 4145,
+    "stop": "eos",
+    "strict_correct": true,
+    "thinking_closed": true
+  },
+  {
+    "id": "math_train_intermediate_algebra_322__asymptote_transfer__preserve_s5",
+    "case_id": "math_train_intermediate_algebra_322",
+    "condition": "preserve_s5",
+    "seed": 20261106,
+    "tokens": 7733,
+    "stop": "eos",
+    "strict_correct": true,
+    "thinking_closed": true
+  },
+  {
+    "id": "math_train_precalculus_152__matrix_identity_stress__preserve_s2",
+    "case_id": "math_train_precalculus_152",
+    "condition": "preserve_s2",
+    "seed": 20261108,
+    "tokens": 5192,
+    "stop": "eos",
+    "strict_correct": true,
+    "thinking_closed": true
+  },
+  {
+    "id": "math_train_precalculus_152__matrix_identity_stress__preserve_s5",
+    "case_id": "math_train_precalculus_152",
+    "condition": "preserve_s5",
+    "seed": 20261108,
+    "tokens": 5774,
+    "stop": "eos",
+    "strict_correct": true,
+    "thinking_closed": true
+  },
+  {
+    "id": "math_train_number_theory_521__short_ordinary_control__preserve_s2",
+    "case_id": "math_train_number_theory_521",
+    "condition": "preserve_s2",
+    "seed": 20261106,
+    "tokens": 827,
+    "stop": "eos",
+    "strict_correct": true,
+    "thinking_closed": true
+  },
+  {
+    "id": "math_train_number_theory_521__short_ordinary_control__preserve_s5",
+    "case_id": "math_train_number_theory_521",
+    "condition": "preserve_s5",
+    "seed": 20261106,
+    "tokens": 836,
+    "stop": "eos",
+    "strict_correct": true,
+    "thinking_closed": true
+  },
+  {
+    "id": "math_train_precalculus_392__productive_case_split_control__preserve_s2",
+    "case_id": "math_train_precalculus_392",
+    "condition": "preserve_s2",
+    "seed": 20261108,
+    "tokens": 6081,
+    "stop": "eos",
+    "strict_correct": true,
+    "thinking_closed": true
+  },
+  {
+    "id": "math_train_precalculus_392__productive_case_split_control__preserve_s5",
+    "case_id": "math_train_precalculus_392",
+    "condition": "preserve_s5",
+    "seed": 20261108,
+    "tokens": 8192,
+    "stop": "limit",
+    "strict_correct": false,
+    "thinking_closed": true
+  }
+]

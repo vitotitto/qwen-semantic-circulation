@@ -1,0 +1,51 @@
+{
+  "status": "failed",
+  "selected_dose": null,
+  "decisions": [
+    {
+      "dose": 1,
+      "passed": false,
+      "checks": {
+        "return_suppression": false,
+        "useful_preservation": true,
+        "selectivity": false,
+        "family_consistency": true,
+        "beats_random": false
+      },
+      "return_delta": -0.001942553946610033,
+      "useful_and_repair_delta": 0.0012237284833522283,
+      "selectivity": 0.0031662824299622614,
+      "random_selectivity": 0.0043406498856791076
+    },
+    {
+      "dose": 2,
+      "passed": false,
+      "checks": {
+        "return_suppression": false,
+        "useful_preservation": true,
+        "selectivity": false,
+        "family_consistency": true,
+        "beats_random": false
+      },
+      "return_delta": -0.0010236328915741953,
+      "useful_and_repair_delta": 0.003713893745056318,
+      "selectivity": 0.004737526636630514,
+      "random_selectivity": 0.004613706193593524
+    },
+    {
+      "dose": 6,
+      "passed": false,
+      "checks": {
+        "return_suppression": false,
+        "useful_preservation": true,
+        "selectivity": false,
+        "family_consistency": true,
+        "beats_random": false
+      },
+      "return_delta": -0.003137989974362027,
+      "useful_and_repair_delta": 0.0041130467035974125,
+      "selectivity": 0.007251036677959438,
+      "random_selectivity": 0.009135146001199032
+    }
+  ]
+}

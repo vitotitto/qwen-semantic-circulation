@@ -1,0 +1,42 @@
+[
+  {
+    "id": "math_train_intermediate_algebra_322__asymptote_transfer__preserve_s2_gguf",
+    "case_id": "math_train_intermediate_algebra_322",
+    "condition": "preserve_s2_gguf",
+    "seed": 20261106,
+    "tokens": 3026,
+    "stop": "eos",
+    "strict_correct": true,
+    "thinking_closed": true
+  },
+  {
+    "id": "math_train_precalculus_152__matrix_identity_stress__preserve_s2_gguf",
+    "case_id": "math_train_precalculus_152",
+    "condition": "preserve_s2_gguf",
+    "seed": 20261108,
+    "tokens": 6130,
+    "stop": "eos",
+    "strict_correct": true,
+    "thinking_closed": true
+  },
+  {
+    "id": "math_train_number_theory_521__short_ordinary_control__preserve_s2_gguf",
+    "case_id": "math_train_number_theory_521",
+    "condition": "preserve_s2_gguf",
+    "seed": 20261106,
+    "tokens": 753,
+    "stop": "eos",
+    "strict_correct": true,
+    "thinking_closed": true
+  },
+  {
+    "id": "math_train_precalculus_392__productive_case_split_control__preserve_s2_gguf",
+    "case_id": "math_train_precalculus_392",
+    "condition": "preserve_s2_gguf",
+    "seed": 20261108,
+    "tokens": 8192,
+    "stop": "limit",
+    "strict_correct": false,
+    "thinking_closed": false
+  }
+]
