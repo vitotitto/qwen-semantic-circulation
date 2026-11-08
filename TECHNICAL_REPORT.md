@@ -89,7 +89,11 @@ An edit was also fitted from states preceding reviewed returns. [Layer 23 and 12
 
 Finally, directions were fitted from the 16 tokens preceding reviewed returns and useful checks. Corrections were applied to 64 columns in each of layers 26 and 30 at strengths 1, 2 and 6. One fixed random control was used: one orthogonal direction per layer, with matched correction norms, reused across all three strengths. Continuation likelihood was measured at 26 locations across six selection families. Selectivity was defined as the change in mean log probability of useful checking and repairs minus the corresponding change for redundant returns, averaged equally across problem families. The criteria were fixed before scoring and required redundant suppression of at least 0.03 nats per token, selectivity of at least 0.03, and an advantage of at least 0.02 over the random control, alongside useful-work preservation and consistency across families. [Control design](data/control_design.json).
 
-At the strongest setting, selectivity was 0.0073 nats per token for the targeted edit and 0.0091 for the random control. At strength 6, suppression was only 0.0031 for the targeted edit and 0.0047 for the control. No selective benefit was established within the tested strength range. All three strengths failed the criteria. Transfer evaluation and free generation were therefore not performed. [Control results](data/14_gate.json)
+At the strongest setting, selectivity was 0.0073 nats per token for the targeted edit and 0.0091 for the random control. At strength 6, suppression was only 0.0031 for the targeted edit and 0.0047 for the control. No selective benefit was established within the tested strength range. All three strengths failed the criteria. Transfer evaluation and free generation were therefore not performed.
+
+The correction was verified to be applied as intended (relative error 7.4 × 10⁻⁷, with baseline logits restored exactly on removal), and at strength 6 it changed the edited weight matrices by about 3.0% and 3.6%. This establishes a working intervention but not sufficient influence on redundant checking.
+
+[Control results](data/14_gate.json)
 
 ![Targeted and fixed random-control likelihood effects across three strengths.](figures/06_controlled_edit.png)
 
