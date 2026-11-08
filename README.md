@@ -1,4 +1,4 @@
-# Qwen3.8-27B: when checking becomes circulation
+# Qwen3.8-27B: when checking becomes semantic circulation
 
 Over the last week the reposts of Astra changing the weights of the smaller model, improving its capability in maths has been all over my feed. [Original Link](https://rikiyat.github.io/blog/weight-space-programming/). 
 
